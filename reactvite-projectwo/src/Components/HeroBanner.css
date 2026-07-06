@@ -1,0 +1,24 @@
+.hero-container{
+    position: relative;
+    text-align: center;
+}
+.hero-banner{
+    height: 400px;
+    width: 100%;
+}
+.hero-head{
+    position: absolute;
+    color: yellow;
+}
+.hero-head p{
+    padding: 13px;
+    font-size:medium;
+}
+.hero-btn{
+    padding: 10px;
+    margin-top: 7px;
+    width: 140px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 7px;
+}
