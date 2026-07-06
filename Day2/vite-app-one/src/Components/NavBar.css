@@ -1,0 +1,13 @@
+#nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    text-decoration: none;
+}
+.nav-list a{
+    color: black;
+    padding: 20px;
+}
