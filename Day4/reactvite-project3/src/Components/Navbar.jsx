@@ -16,8 +16,8 @@ export const Logo =()=>{
     return(
         <>
         <div className='bg-blue-200 flex justify-between p-7'>
-        <div className="h-10 w-10 rounded">
-            <img src={logoimage} alt="" />
+        <div className="h-10 w-10">
+            <img className="rounded-full" src={logoimage} alt="" />
         </div>
         <div className='flex gap-5'>
         <a href="">Home</a>
