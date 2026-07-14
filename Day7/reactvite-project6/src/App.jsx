@@ -1,4 +1,5 @@
 import ArrObjRendering from "./component/ArrObjRendering"
+import NumberRendering from "./component/NumberRendering"
 import ObjectRendering from "./component/ObjectRendering"
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
 
       <ObjectRendering/>
       <ArrObjRendering/>
+      <NumberRendering/>
     </>
   )
 }

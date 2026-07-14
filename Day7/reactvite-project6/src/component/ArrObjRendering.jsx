@@ -8,9 +8,9 @@ const ArrObjRendering = () => {
     <div>
       {arr.map((e,i)=>(
         <>
-        <h2 key={i}>{e.name}</h2>
-        <h2 key={i}>{e.profession}</h2>
-        <h2 key={i}>{e.past}</h2>
+        <h2 key={i+1}>{e.name}</h2>
+        <h2 key={i+1}>{e.profession}</h2>
+        <h2 key={i+1}>{e.past}</h2>
         </>
       ))}
     </div>
