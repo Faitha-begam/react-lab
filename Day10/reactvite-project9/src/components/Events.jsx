@@ -4,8 +4,8 @@ const Events = () => {
     alert("Button Clicked")
     }
     const increase=()=>{
-       number++
-       document.getElementById("value").innerText =`Increament:  nb   ${number}`
+       number +=1
+       document.getElementById("value").innerText =`Increament:  ${number}`
     }
   return (
     <>
