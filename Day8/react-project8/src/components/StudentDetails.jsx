@@ -1,5 +1,5 @@
 
-const StudentDetails = ({Name,Age,Course,Status, students}) => {
+const StudentDetails = ({Name,Age,Course,Status,students}) => {
   return (
     <>
       <p>Name : {Name}</p>
@@ -7,7 +7,7 @@ const StudentDetails = ({Name,Age,Course,Status, students}) => {
       <p>Course : {Course}</p>
       <p>Status : {Status}</p>
 
-    {students.map((e,i)=>(
+    {students.map((students)=>(
         <>
         <p key={i+1}>{e.id}</p>
         <p key={i+1}>{e.name}</p>
