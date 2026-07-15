@@ -1,5 +1,6 @@
 import EmployeeCard from "./EmployeeCard"
 import StudentDetails from "./StudentDetails"
+import StudentObject from "./StudentObject"
 const StudentCard = () => {
   return (
     <>
@@ -8,7 +9,8 @@ const StudentCard = () => {
     <h2><strong>Task 2 - Primitive Props</strong></h2>
       <EmployeeCard emp = {{Name:"Noah", email:"Noah@gmail.com", city:"Chennai", experience:3}}/>
     <h2><strong>Task 3 - Array Of Objects Props</strong></h2>
-      <StudentDetails students = {[
+    <h2><strong>Student Details</strong></h2>
+      <StudentObject students = {[
   {
     id: 1,
     name: "Aarav",
