@@ -1,11 +1,13 @@
-const Home = ({Movies}) => {
+import Student from "../components/Student"
+
+
+const Home = () => {
     
   return (
     <>
       <div>
-        {Movies.map((e,i)=>(
-          <h2 key={i+1}>{e}</h2>
-        ))}
+         <Student name="ayaan" age={22} course="FullStack"/>
+         
       </div>
     </>
   )
