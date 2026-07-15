@@ -1,10 +1,11 @@
 import React from 'react'
 import Events from './components/Events'
+import UseStatePractice from './components/UseStatePractice'
 
 const App = () => {
   return (
     <>
-     <Events/> 
+     <UseStatePractice/> 
     </>
   )
 }

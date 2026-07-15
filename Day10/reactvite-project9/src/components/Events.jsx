@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Events = () => {
     let number = 1 
     const click=()=>{
