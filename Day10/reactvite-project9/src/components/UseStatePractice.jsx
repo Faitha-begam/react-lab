@@ -9,7 +9,7 @@ const UseStatePractice = () => {
   return(
     <>
       <p>{count}</p>
-      <p>{count?"increased vlaue ":"no increament"}</p>
+      <p>{count?"increased vlaue":"no increament"}</p>
       <button className="bg-green-300 p-3 rounded-lg" onClick={btnClick}>click me</button>
     </>
   )
