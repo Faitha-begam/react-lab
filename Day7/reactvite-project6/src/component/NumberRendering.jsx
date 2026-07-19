@@ -20,7 +20,7 @@ const NumberRendering = () => {
   age: 53,
   country: "India",
   experience: "Technology and Product Management",
-  salary: "$226 Million (approx.)",
+  salary: "$226 Million (approx)",
   joined: 2004
 }
 ceo_arr.push(ceo)

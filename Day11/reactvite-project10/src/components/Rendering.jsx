@@ -11,8 +11,8 @@ const Rendering = () => {
   return (
     <>
 
-      <p>{num?<img className='bg-slate-300 p-5 w-90 m-auto rounded-lg text-center mt-20' src={sleepyCat} alt="sleepycat"/>:<img className='bg-slate-300 p-5 w-100 m-auto rounded-lg text-center mt-20' src={awakeCat} alt="sleepycat"/>}</p>
-      <button className='bg-black text-white p-3 rounded-lg m-auto mx-100 mt-20' onClick={changeNum}>click to change</button>
+      <p>{num?<img className='bg-slate-300 p-5 w-90 h-90 m-auto rounded-lg text-center mt-20' src={awakeCat} alt="sleepycat"/>:<img className='bg-slate-300 p-5 w-90 h-90 m-auto rounded-lg text-center mt-20' src={sleepyCat} alt="sleepycat"/>}</p>
+      <button className='bg-black text-white p-3 rounded-lg m-auto mx-150 mt-20' onClick={changeNum}>click to change</button>
       
     </>
   )
