@@ -4,6 +4,7 @@ import iit from "../assets/iit.jpg";
 import protestDetail from "../assets/protestBanner.jpg";
 import vijaydetail from "../assets/vijaydetail.jpg";
 import isro from '../assets/isrobanner.jpg'
+import third from '../assets/thirddetail.jpg'
 
 const NewsData = [
   {
@@ -83,37 +84,43 @@ const NewsData = [
   },
 
 
-  {
-    id:3,
-    title:"IIT-M Students Rally",
-    image:iit,
-    detailImage:protestDetail,
-    category:"Education",
-    date:"Today",
+ {
+  id:3,
 
-    description:
-      "IIT-M students organize a rally for social awareness.",
+  title:"India's Digital Payment Growth Reaches New Milestone",
 
-    content:
-    `
-    Students from IIT Madras participated in a rally focused on creating 
-    awareness about important social issues. The event witnessed participation 
-    from students, faculty members, and volunteers.
+  image:"https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500",
 
-    The rally aimed to encourage students to actively participate in social 
-    responsibilities and contribute towards positive changes in society.
 
-    During the event, students conducted awareness activities, shared ideas, 
-    and discussed solutions for various challenges faced by communities.
+detailImage:third,
+  category:"Business",
 
-    The initiative reflects the growing involvement of young students in 
-    addressing social issues and creating meaningful impact through collective 
-    efforts.
+  date:"Today",
 
-    Organizers appreciated the participation and enthusiasm shown by students 
-    throughout the event.
-    `
-  },
+  description:
+  "Digital payments continue to grow rapidly as more people adopt online transactions.",
+
+  content:
+  `
+  India's digital payment ecosystem continues to expand as millions of people 
+  adopt online transactions for their daily activities.
+
+  The growth of digital payment platforms has transformed the way businesses 
+  and customers exchange money. From small shops to large organizations, 
+  digital transactions have become an important part of the modern economy.
+
+  Experts believe that increased smartphone usage, internet accessibility, 
+  and secure payment technologies have contributed significantly to this 
+  growth.
+
+  The development of digital financial services is also helping improve 
+  convenience, transparency, and accessibility for people across different 
+  regions of the country.
+
+  As technology continues to evolve, digital payments are expected to play a 
+  major role in India's future economy.
+  `
+},
 
 
   {
