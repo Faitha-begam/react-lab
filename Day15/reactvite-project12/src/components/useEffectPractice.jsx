@@ -104,7 +104,7 @@ const UseEffectPractice = () => {
             }}
           >
             <h3>{product.title}</h3>
-            <p>Price: ${product.price}</p>
+            <p>Price: ${product.price}</p> 
           </div>
         ))}
       </div>
